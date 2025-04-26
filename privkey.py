@@ -1,11 +1,11 @@
 import hashlib
 
 # Define the start and end of the range (as integers)
-start = int("40000000000000000", 16)
-end = int("7ffffffffffffffff", 16)
+start = int("100000000000000000")
+end = int("1ffffffffffffffffff")
 
 # The target Hash160 to find
-target_hash = "739437bb3dd6d1983e66629c5f08c70e52769371"  # Replace this with your actual target hash
+target_hash = ""  # Replace this with your actual target hash
 
 # Iterate through the private key range
 for key in range(start, end + 1):
